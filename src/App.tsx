@@ -2,6 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { ProjectCard } from "./components/Card";
 import { AboutMe } from "./components/sections/AboutMe";
 import { Projects } from "./components/sections/Projects";
+import { TechStack } from "./components/sections/TechStack";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
 
         <AboutMe></AboutMe>
         <Projects></Projects>
-
+        <TechStack></TechStack> 
         
 
         <section className="max-w-5xl mx-auto px-6 mb-12">

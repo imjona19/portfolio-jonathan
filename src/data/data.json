@@ -1,5 +1,176 @@
 {
-    "Projects": {
-        
+  "Projects": {},
+  "Technologies": {
+    "Backend": {
+      "C#": {
+        "Name": "C#",
+        "Description": "Lenguaje moderno orientado a objetos utilizado para desarrollo backend y aplicaciones empresariales.",
+        "Icon": "https://api.iconify.design/devicon/csharp.svg",
+        "ColorStart": "#68217A",
+        "ColorEnd": "#9B4F96"
+      },
+      ".NET Framework": {
+        "Name": ".NET Framework",
+        "Description": "Framework tradicional de Microsoft para aplicaciones empresariales Windows y web.",
+        "Icon": "https://cdn.simpleicons.org/dotnet",
+        "ColorStart": "#512BD4",
+        "ColorEnd": "#7B61FF"
+      },
+      ".NET Core": {
+        "Name": ".NET Core",
+        "Description": "Framework multiplataforma moderno para desarrollo de APIs y aplicaciones escalables.",
+        "Icon": "https://cdn.simpleicons.org/dotnet",
+        "ColorStart": "#512BD4",
+        "ColorEnd": "#8A6EFF"
+      },
+      "Entity Framework": {
+        "Name": "Entity Framework",
+        "Description": "ORM para .NET que facilita acceso a bases de datos mediante objetos.",
+        "Icon": "https://api.iconify.design/devicon/entityframeworkcore.svg",
+        "ColorStart": "#6A1B9A",
+        "ColorEnd": "#AB47BC"
+      },
+      "ADO.NET": {
+        "Name": "ADO.NET",
+        "Description": "Tecnología clásica de acceso a datos para aplicaciones .NET.",
+        "Icon": "https://cdn.simpleicons.org/dotnet",
+        "ColorStart": "#1565C0",
+        "ColorEnd": "#64B5F6"
+      },
+      "Node.js": {
+        "Name": "Node.js",
+        "Description": "Entorno de ejecución JavaScript para backend escalable.",
+        "Icon": "https://cdn.simpleicons.org/nodedotjs",
+        "ColorStart": "#339933",
+        "ColorEnd": "#66BB6A"
+      },
+      "Express": {
+        "Name": "Express",
+        "Description": "Framework minimalista para APIs y aplicaciones web en Node.js.",
+        "Icon": "https://cdn.simpleicons.org/express",
+        "ColorStart": "#222222",
+        "ColorEnd": "#555555"
+      },
+      "NestJS": {
+        "Name": "NestJS",
+        "Description": "Framework progresivo para Node.js basado en TypeScript.",
+        "Icon": "https://cdn.simpleicons.org/nestjs",
+        "ColorStart": "#E0234E",
+        "ColorEnd": "#F06292"
+      }
+    },
+    "Frontend": {
+      "HTML": {
+        "Name": "HTML",
+        "Description": "Lenguaje estándar para estructurar contenido web.",
+        "Icon": "https://cdn.simpleicons.org/html5",
+        "ColorStart": "#E34F26",
+        "ColorEnd": "#FF7043"
+      },
+      "CSS": {
+        "Name": "CSS",
+        "Description": "Lenguaje de estilos para diseño visual en web.",
+        "Icon": "https://cdn.simpleicons.org/css",
+        "ColorStart": "#1572B6",
+        "ColorEnd": "#42A5F5"
+      },
+      "JavaScript": {
+        "Name": "JavaScript",
+        "Description": "Lenguaje esencial para interactividad en aplicaciones web.",
+        "Icon": "https://cdn.simpleicons.org/javascript",
+        "ColorStart": "#F7DF1E",
+        "ColorEnd": "#FFD54F"
+      },
+      "TypeScript": {
+        "Name": "TypeScript",
+        "Description": "Superset tipado de JavaScript para aplicaciones robustas.",
+        "Icon": "https://cdn.simpleicons.org/typescript",
+        "ColorStart": "#3178C6",
+        "ColorEnd": "#64B5F6"
+      },
+      "React": {
+        "Name": "React",
+        "Description": "Biblioteca para construir interfaces modernas y reactivas.",
+        "Icon": "https://cdn.simpleicons.org/react",
+        "ColorStart": "#61DAFB",
+        "ColorEnd": "#4FC3F7"
+      },
+      "Redux": {
+        "Name": "Redux",
+        "Description": "Gestor de estado predecible para aplicaciones frontend.",
+        "Icon": "https://cdn.simpleicons.org/redux",
+        "ColorStart": "#764ABC",
+        "ColorEnd": "#9575CD"
+      },
+      "Bootstrap": {
+        "Name": "Bootstrap",
+        "Description": "Framework CSS para diseño responsive rápido.",
+        "Icon": "https://cdn.simpleicons.org/bootstrap",
+        "ColorStart": "#7952B3",
+        "ColorEnd": "#BA68C8"
+      },
+      "TailwindCSS": {
+        "Name": "Tailwind CSS",
+        "Description": "Framework utility-first para interfaces modernas.",
+        "Icon": "https://cdn.simpleicons.org/tailwindcss",
+        "ColorStart": "#06B6D4",
+        "ColorEnd": "#4DD0E1"
+      }
+    },
+    "CloudDevOps": {
+      "AWS": {
+        "Name": "AWS",
+        "Description": "Plataforma cloud para infraestructura y servicios escalables.",
+        "Icon": "https://api.iconify.design/logos/aws.svg",
+        "ColorStart": "#FF9900",
+        "ColorEnd": "#FFB74D"
+      },
+      "Docker": {
+        "Name": "Docker",
+        "Description": "Contenerización para despliegues consistentes y portables.",
+        "Icon": "https://cdn.simpleicons.org/docker",
+        "ColorStart": "#2496ED",
+        "ColorEnd": "#64B5F6"
+      }
+    },
+    "Databases": {
+      "SQL Server": {
+        "Name": "SQL Server",
+        "Description": "Sistema robusto de base de datos relacional de Microsoft.",
+        "Icon": "https://api.iconify.design/devicon/microsoftsqlserver.svg",
+        "ColorStart": "#CC2927",
+        "ColorEnd": "#EF5350"
+      },
+      "MySQL": {
+        "Name": "MySQL",
+        "Description": "Base de datos relacional ampliamente usada en aplicaciones web.",
+        "Icon": "https://cdn.simpleicons.org/mysql",
+        "ColorStart": "#4479A1",
+        "ColorEnd": "#64B5F6"
+      }
+    },
+    "Tools": {
+      "Git": {
+        "Name": "Git",
+        "Description": "Sistema distribuido de control de versiones.",
+        "Icon": "https://cdn.simpleicons.org/git",
+        "ColorStart": "#F05032",
+        "ColorEnd": "#FF8A65"
+      },
+      "GitHub": {
+        "Name": "GitHub",
+        "Description": "Plataforma colaborativa para repositorios Git.",
+        "Icon": "https://cdn.simpleicons.org/github",
+        "ColorStart": "#181717",
+        "ColorEnd": "#424242"
+      },
+      "IIS": {
+        "Name": "IIS",
+        "Description": "Servidor web de Microsoft para hospedar aplicaciones .NET.",
+        "Icon": "https://api.iconify.design/logos/microsoft-icon.svg",
+        "ColorStart": "#0078D4",
+        "ColorEnd": "#42A5F5"
+      }
     }
+  }
 }
