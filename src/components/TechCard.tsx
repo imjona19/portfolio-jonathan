@@ -1,9 +1,9 @@
 interface TechCardProps {
-  icon: string;       // URL de imagen o emoji
-  name: string;       // Nombre de la tecnología
+  icon: string;
+  name: string;
   description?: string;
-  colorStart?: string; // Color inicio del gradiente hover
-  colorEnd?: string;   // Color fin del gradiente hover
+  colorStart?: string;
+  colorEnd?: string;
 }
 
 export function TechCard({

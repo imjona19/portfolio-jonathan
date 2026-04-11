@@ -1,29 +1,29 @@
 import { ProjectCard } from "../Card";
+import technologiesData from "../../data/data.json";
 
 export const Projects = () => {
     return(
         <section className="max-w-7xl mx-auto px-6 mb-12 mt-5">
             <h2 className="text-3xl font-bold text-white mb-8">Proyectos Destacados</h2>
-            
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <ProjectCard 
-                title="Quantik ERP"
-                description="Sistema de gestión empresarial para ventas, inventario y control de proveedores. Interfaz dinámica y arquitectura escalable orientada al rendimiento."
-                tags={['Django', 'Python', 'HTMX', 'Tailwind']}
-            />
-            
-            <ProjectCard 
-                title="Portal de Cumplimiento (SIROC/REPSE)"
-                description="Desarrollo y mantenimiento de portales de cumplimiento técnico con validación estricta de documentos, OCR y consultas optimizadas a bases de datos."
-                tags={['.NET Core', 'SQL Server', 'C#', 'React']}
-            />
 
-            <ProjectCard 
-                title="Portal de Cumplimiento (SIROC/REPSE)"
-                description="Desarrollo y mantenimiento de portales de cumplimiento técnico con validación estricta de documentos, OCR y consultas optimizadas a bases de datos."
-                tags={['.NET Core', 'SQL Server', 'C#', 'React']}
-            />
-            </div>
+            {Object.entries(technologiesData.Projects).map(([category, techs]) => (
+                <div className="mb-6" key={category}>
+                    <h2 className="text-2xl font-bold text-white mb-5">{category}</h2>
+
+                    <div className="grid grid-cols-3 gap-4">
+                        {Object.entries(techs).map(([key, tech]) => (
+                            <ProjectCard
+                            key={key}
+                            title={tech.Title}
+                            description={tech.Description}
+                            tags={tech.Tags}
+                            imageUrl={tech.ImageUrl}
+                            imageFit={tech.ImageFit}
+                            />
+                        ))}
+                    </div>
+                </div>
+            ))}
         </section>
     );
 };
