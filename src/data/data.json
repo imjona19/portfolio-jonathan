@@ -220,5 +220,45 @@
         "ColorEnd": "#42A5F5"
       }
     }
-  }
+  },
+  "ProfessionalExperience": [
+    {
+      "role": "Desarrollador Fullstack .NET",
+      "company": "KrestonBSG",
+      "period": "Septiembre 2024 - Presente",
+      "isCurrent": true,
+      "logoUrl": "/assets/kreston-mini.png",
+      "bullets": [
+        "Modernización de sistemas legacy a .NET 8 con Clean Architecture, mejorando escalabilidad y mantenibilidad",
+        "Reducción del 30% en tiempos de procesamiento mediante la implementación de un microservicio en Node.js y TypeScript",
+        "Integración de soluciones cloud con AWS (S3, Lambda) y contenedorización con Docker, disminuyendo un 30% la carga de infraestructura local",
+        "Optimización de bases de datos en SQL Server y automatización de procesos de soporte, logrando reducir el tiempo de atención al cliente en un 40%",
+        "Desarrollo de interfaces tipo SPA para optimizar la experiencia del usuario y la interacción con APIs"
+      ]
+    },
+    {
+      "role": "Desarrollador Junior .NET - Prácticas Profesionales",
+      "company": "DSS",
+      "period": "Octubre 2023 - Mayo 2024",
+      "isCurrent": false,
+      "logoUrl": "/assets/dss_logo.jpeg",
+      "bullets": [
+        "Desarrollo y mantenimiento de aplicaciones web utilizando ASP.NET MVC y .NET Framework, asegurando estabilidad en producción",
+        "Implementación de nuevas funcionalidades en un CRM interno y diseño de una API REST en PHP para automatizar la integración con GLPI",
+        "Optimización de consultas en SQL Server, reduciendo significativamente los tiempos de respuesta en operaciones críticas"
+      ]
+    },
+    {
+      "role": "Desarrollador Móvil - Servicio Social",
+      "company": "ISSSTEP",
+      "period": "Octubre 2022 - Mayo 2023",
+      "isCurrent": false,
+      "logoUrl": "/assets/logo_issstep.png",
+      "bullets": [
+        "Desarrollo de App Móvil gubernamental Android",
+        "Diseño y gestión de bases de datos",
+        "Documentacion técnica"
+      ]
+    }
+  ]
 }
