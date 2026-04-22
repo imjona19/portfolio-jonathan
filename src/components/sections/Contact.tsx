@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const FORMSPREE_ID = "xyzabcde"; // 🔧 reemplaza con tu ID de formspree.io
+const FORMSPREE_ID = import.meta.env.VITE_FORMSPREE_ID;
 
 type FormState = "idle" | "loading" | "success" | "error";
 

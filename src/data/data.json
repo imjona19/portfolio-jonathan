@@ -6,14 +6,18 @@
           "Description": "Sistema de gestión empresarial para ventas, inventario y control de proveedores. Interfaz dinámica y arquitectura escalable orientada al rendimiento.",
           "Tags": ["Django", "Python", "HTMX", "Tailwind"],
           "ImageUrl": "/assets/QuantikLogoFinal.png",
-          "ImageFit": true
+          "ImageFit": true,
+          "RepoUrl": "https://github.com/imjona19/quantik",
+          "DemoUrl": ""
         },
       "PortafolioPersonal": {
         "Title": "Portafolio Web",
         "Description": "Lo estás viendo ahora mismo: :)",
         "Tags": ["React", "Typescript", "Tailwind"],
         "ImageUrl": "/assets/Portafolio.png",
-        "ImageFit": false
+        "ImageFit": false,
+        "RepoUrl": "https://github.com/imjona19/portfolio-jonathan",
+        "DemoUrl": ""
       }
     },
     "Work": {
@@ -22,28 +26,36 @@
         "Description": "Desarrollo y mantenimiento de portales de cumplimiento técnico con validación estricta de documentos, OCR y consultas optimizadas a bases de datos.",
         "Tags": ["C#", ".NET 8", ".NET Framework", "Entity Framework", "SQL Server", "Tailwind"],
         "ImageUrl": "/assets/outsourcing.png",
-        "ImageFit": false
+        "ImageFit": false,
+        "RepoUrl": "",
+        "DemoUrl": ""
       },
       "Portal SeguimientoObras": {
         "Title": "Seguimiento de Obras",
         "Description": "Sistema de gestión de obras de construcción dando seguimiento constante a aspectos de la obra tales como el presupuesto, avance, empleados, actualizaciones de obra, entre otros.",
         "Tags": ["C#", ".NET 8", ".NET Framework", "Entity Framework", "SQL Server", "Tailwind"],
         "ImageUrl": "/assets/obras.png",
-        "ImageFit": false
+        "ImageFit": false,
+        "RepoUrl": "",
+        "DemoUrl": ""
       },
       "PortalProveedores": {
         "Title": "Portal de Proveedores",
         "Description": "ERP encargado de gestionar y controlar facturación, órdenes de compra, recepciones y pagos de cientos de proveedores.",
         "Tags": ["C#", ".NET Framework", "ADO.NET", "SQL Server", "Bootstrap"],
         "ImageUrl": "/assets/PortalProveedores.png",
-        "ImageFit": false
+        "ImageFit": false,
+        "RepoUrl": "",
+        "DemoUrl": ""
       },
       "FacturaciónMasiva": {
         "Title": "Facturación Masiva",
         "Description": "Generación de facturas, conciliación bancaria y complementos de pago a escala masiva. Añadiendo también el timbrado de cada documento.",
         "Tags": ["C#", ".NET Framework", "ADO.NET", "SQL Server", "Bootstrap"],
         "ImageUrl": "/assets/FactMasiva.png",
-        "ImageFit": false
+        "ImageFit": false,
+        "RepoUrl": "",
+        "DemoUrl": ""
       }
     }   
     
