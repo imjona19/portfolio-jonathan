@@ -33,7 +33,7 @@ export const Contact = () => {
   };
 
   return (
-    <section className="max-w-7xl mx-auto px-6 mb-16 mt-5">
+    <section id="contact" className="max-w-7xl mx-auto px-6 mb-16 mt-5">
       <h2 className="text-3xl font-bold text-white mb-2">Contacto</h2>
       <p className="text-slate-400 mb-10 text-sm sm:text-base">
         ¿Tienes un proyecto en mente o quieres platicar? Escríbeme.

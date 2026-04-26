@@ -1,14 +1,25 @@
 {
   "Projects": {
     "Personal": {
-      "Quantik": {
+      "Dyad Systems": {
+          "Title": "Dyad Systems",
+          "Description": "Consultora de software personal",
+          "Tags": [],
+          "ImageUrl": "/assets/dyad_logo_white.png",
+          "ImageFit": true,
+          "RepoUrl": "",
+          "DemoUrl": "",
+          "Featured": true
+        },
+        "Quantik": {
           "Title": "Quantik ERP",
           "Description": "Sistema de gestión empresarial para ventas, inventario y control de proveedores. Interfaz dinámica y arquitectura escalable orientada al rendimiento.",
           "Tags": ["Django", "Python", "HTMX", "Tailwind"],
           "ImageUrl": "/assets/QuantikLogoFinal.png",
           "ImageFit": true,
           "RepoUrl": "https://github.com/imjona19/quantik",
-          "DemoUrl": ""
+          "DemoUrl": "",
+          "Featured": true
         },
       "PortafolioPersonal": {
         "Title": "Portafolio Web",
@@ -17,7 +28,8 @@
         "ImageUrl": "/assets/Portafolio.png",
         "ImageFit": false,
         "RepoUrl": "https://github.com/imjona19/portfolio-jonathan",
-        "DemoUrl": ""
+        "DemoUrl": "",
+          "Featured": false
       }
     },
     "Work": {
@@ -28,7 +40,8 @@
         "ImageUrl": "/assets/outsourcing.png",
         "ImageFit": false,
         "RepoUrl": "",
-        "DemoUrl": ""
+        "DemoUrl": "",
+          "Featured": false
       },
       "Portal SeguimientoObras": {
         "Title": "Seguimiento de Obras",
@@ -37,7 +50,8 @@
         "ImageUrl": "/assets/obras.png",
         "ImageFit": false,
         "RepoUrl": "",
-        "DemoUrl": ""
+        "DemoUrl": "",
+          "Featured": false
       },
       "PortalProveedores": {
         "Title": "Portal de Proveedores",
@@ -46,7 +60,8 @@
         "ImageUrl": "/assets/PortalProveedores.png",
         "ImageFit": false,
         "RepoUrl": "",
-        "DemoUrl": ""
+        "DemoUrl": "",
+          "Featured": false
       },
       "FacturaciónMasiva": {
         "Title": "Facturación Masiva",
@@ -55,7 +70,8 @@
         "ImageUrl": "/assets/FactMasiva.png",
         "ImageFit": false,
         "RepoUrl": "",
-        "DemoUrl": ""
+        "DemoUrl": "",
+          "Featured": false
       }
     }   
     

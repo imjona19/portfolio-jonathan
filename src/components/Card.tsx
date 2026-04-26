@@ -90,3 +90,176 @@ export const ProjectCard = ({
     </article>
   );
 };
+
+// interface ProjectCardProps {
+//   title: string;
+//   description: string;
+//   tags: string[];
+//   imageUrl?: string;
+//   imageFit?: boolean;
+//   repoUrl?: string;
+//   demoUrl?: string;
+//   featured?: boolean;
+//   index: number;
+// }
+
+// const GithubIcon = () => (
+//   <svg width="11" height="11" viewBox="0 0 24 24" fill="currentColor">
+//     <path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.603-3.369-1.342-3.369-1.342-.454-1.155-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844a9.59 9.59 0 012.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .267.18.578.688.48C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/>
+//   </svg>
+// );
+
+// const ImagePlaceholder = ({ isSelf }: { isSelf?: boolean }) => (
+//   <div className="w-full h-full flex items-center justify-center">
+//     {isSelf
+//       ? <span className="font-mono text-[13px] tracking-[4px] text-[#0a1220]">{"{ }"}</span>
+//       : <span className="font-mono text-[10px] tracking-widest text-[#141420]">[ imagen ]</span>
+//     }
+//   </div>
+// );
+
+// const renderImage = (imageUrl?: string, imageFit?: boolean, isSelf?: boolean, title?: string) => {
+//   if (imageFit && imageUrl) return (
+//     <img src={imageUrl} alt={title} className="w-full h-full object-contain p-10" />
+//   );
+//   if (imageUrl) return (
+//     <img src={imageUrl} alt={title} className="w-full h-full object-cover" />
+//   );
+//   return <ImagePlaceholder isSelf={isSelf} />;
+// };
+
+// export const ProjectCard = ({
+//   title,
+//   description,
+//   tags,
+//   imageUrl,
+//   imageFit,
+//   repoUrl,
+//   demoUrl,
+//   featured = false,
+//   index,
+// }: ProjectCardProps) => {
+
+//   const isSelf = title === "Portafolio Web";
+//   const indexStr = String(index).padStart(2, "0");
+
+//   /* ── FEATURED ─────────────────────────────── */
+//   if (featured) {
+//     return (
+//       <article className="grid grid-cols-1 sm:grid-cols-2 border border-[#1e1e2a] rounded-[14px] overflow-hidden mb-[10px] min-h-[280px] bg-[#0c0c10]">
+
+//         <div className="bg-[#080810] flex items-center justify-center border-b sm:border-b-0 sm:border-r border-[#1e1e2a] overflow-hidden min-h-[200px]">
+//           {renderImage(imageUrl, imageFit, false, title)}
+//         </div>
+
+//         <div className="p-8 flex flex-col justify-between">
+//           <div>
+//             <div className="flex items-center gap-3 mb-5">
+//               <span className="font-mono text-[11px] text-[#252535]">{indexStr}</span>
+//               <span className="flex-1 h-px bg-[#1a1a28]" />
+//               <span className="font-mono text-[10px] tracking-[0.12em] uppercase text-[#1A97DB] border border-[rgba(26,151,219,0.2)] px-[9px] py-[3px] rounded-full">
+//                 destacado
+//               </span>
+//             </div>
+
+//             <h3 className="text-[26px] font-bold text-[#f1f5f9] leading-[1.1] mb-3">{title}</h3>
+//             <p className="text-sm text-[#94a3b8] leading-[1.75] mb-6">{description}</p>
+
+//             <div className="flex flex-wrap gap-1.5 mb-6">
+//               {tags.map(tag => (
+//                 <span key={tag} className="font-mono text-[11px] font-semibold text-[#1A97DB] bg-[rgba(26,151,219,0.06)] border border-[rgba(26,151,219,0.15)] px-[10px] py-[3px] rounded-[3px]">
+//                   {tag}
+//                 </span>
+//               ))}
+//             </div>
+//           </div>
+
+//           <div className="flex gap-3 items-center">
+//             {repoUrl && (
+//               <a href={repoUrl} target="_blank" rel="noopener noreferrer"
+//                 className="inline-flex items-center gap-1.5 font-mono text-xs font-semibold text-white bg-[#1A3A6C] border border-[#1A3A6C] px-4 py-2 rounded-md no-underline"
+//               >
+//                 <GithubIcon /> Repositorio
+//               </a>
+//             )}
+//             {demoUrl && (
+//               <a href={demoUrl} target="_blank" rel="noopener noreferrer"
+//                 className="inline-flex items-center gap-1.5 font-mono text-xs font-semibold text-[#94a3b8] border border-[#1e1e2a] px-4 py-2 rounded-md no-underline"
+//               >
+//                 Demo ↗
+//               </a>
+//             )}
+//           </div>
+//         </div>
+//       </article>
+//     );
+//   }
+
+//   /* ── CARD DEFAULT ─────────────────────────── */
+//   return (
+//     <article className={`
+//       flex flex-col bg-[#0c0c10] border rounded-xl overflow-hidden
+//       transition-all duration-300 hover:-translate-y-[3px] group
+//       ${isSelf
+//         ? "border-[#0e1828] hover:border-[#1A3A6C]"
+//         : "border-[#1a1a24] hover:border-[#2a3a5a]"
+//       }
+//     `}>
+
+//       {/* Imagen */}
+//       <div className={`w-full h-[148px] flex items-center justify-center overflow-hidden shrink-0 border-b
+//         ${isSelf ? "bg-[#04040c] border-[#0e1828]" : "bg-[#08080e] border-[#1a1a24]"}
+//       `}>
+//         {renderImage(imageUrl, imageFit, isSelf, title)}
+//       </div>
+
+//       {/* Body */}
+//       <div className="p-[1.1rem_1.2rem] flex flex-col flex-1 gap-[10px]">
+
+//         <div className="flex items-baseline justify-between">
+//           <span className={`font-mono text-[10px] ${isSelf ? "text-[#0e1828]" : "text-[#2a2a40]"}`}>
+//             {indexStr}
+//           </span>
+//           {repoUrl && (
+//             <a href={repoUrl} target="_blank" rel="noopener noreferrer"
+//               className={`inline-flex items-center gap-1 font-mono text-[10px] no-underline transition-colors duration-200
+//                 ${isSelf
+//                   ? "text-[#0e1828] group-hover:text-[#1A97DB]"
+//                   : "text-[#3a3a55] group-hover:text-[#1A97DB]"
+//                 }`}
+//             >
+//               <GithubIcon /> repo ↗
+//             </a>
+//           )}
+//         </div>
+
+//         <h3 className={`text-sm font-bold leading-snug
+//           ${isSelf ? "text-[#3a7ab8]" : "text-[#e2e8f0]"}
+//         `}>
+//           {title}
+//         </h3>
+
+//         <p className={`text-xs leading-[1.65] flex-1
+//           ${isSelf ? "text-[#4a6080]" : "text-[#8892a4]"}
+//         `}>
+//           {description}
+//         </p>
+
+//         <div className={`flex flex-wrap gap-1 pt-2 border-t mt-auto
+//           ${isSelf ? "border-[#080f18]" : "border-[#111118]"}
+//         `}>
+//           {tags.map(tag => (
+//             <span key={tag} className={`font-mono text-[10px] border px-[7px] py-[2px] rounded-[2px] transition-all duration-200
+//               ${isSelf
+//                 ? "text-[#1A3A6C] border-[#0e1e38] group-hover:text-[#1A97DB] group-hover:border-[#1A3A6C]"
+//                 : "text-[#4a5568] border-[#1e1e2c] group-hover:text-[#6b7fa0] group-hover:border-[#1a2a40]"
+//               }`}
+//             >
+//               {tag}
+//             </span>
+//           ))}
+//         </div>
+//       </div>
+//     </article>
+//   );
+// };

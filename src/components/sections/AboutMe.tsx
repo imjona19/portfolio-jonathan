@@ -3,7 +3,7 @@ import { ParticlesBackground } from "../animations/animationBackground";
 export const AboutMe = () => {
 
     return(
-        <section className="relative flex flex-col items-center justify-center min-h-[100vh] px-4 md:px-6 py-20 fade-up overflow-hidden">
+        <section id="aboutMe" className="relative flex flex-col items-center justify-center min-h-[100vh] px-4 md:px-6 py-20 fade-up overflow-hidden">
             <ParticlesBackground />
 
             <span className="relative inline-flex items-center gap-2 font-mono text-[11px] tracking-[0.18em] uppercase text-[#1A97DB] px-[18px] py-2 rounded-full border border-[#1A97DB]/30 bg-[#1A97DB]/[0.06] mb-3">

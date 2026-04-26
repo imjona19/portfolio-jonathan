@@ -3,7 +3,7 @@ import experienceData from "../../data/data.json";
 
 export const ProfessionalExperience = () => {
   return (
-    <section className="max-w-7xl mx-auto px-6 mb-12 mt-5">
+    <section id="professionalExperience" className="max-w-7xl mx-auto px-6 mb-12 mt-5">
       <h2 className="text-3xl font-bold text-white mb-8">
         Experiencia Laboral
       </h2>
